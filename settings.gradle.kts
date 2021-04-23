@@ -14,7 +14,8 @@ include(
     ":arkitekt-lint",
     ":core-test",
     ":rx-usecases-test",
-    ":cr-usecases-test"
+    ":cr-usecases-test",
+    ":km-usecases"
 )
 
 pluginManagement {

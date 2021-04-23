@@ -8,6 +8,9 @@ object Deps {
         const val androidMaven = "com.github.dcendents:android-maven-gradle-plugin:${Versions.androidMaven}"
         const val bintray = "com.jfrog.bintray.gradle:gradle-bintray-plugin:${Versions.bintray}"
         const val dokka = "org.jetbrains.dokka:dokka-android-gradle-plugin:${Versions.dokka}"
+
+        const val sqlDelight = "com.squareup.sqldelight:gradle-plugin:${Versions.sqlDelight}"
+        const val apollo = "com.apollographql.apollo:apollo-api:${Versions.apollo}"
     }
 
     object Kotlin {
@@ -15,6 +18,7 @@ object Deps {
         const val stdlib = "stdlib-jdk7"
         const val reflect = "reflect"
         const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+        const val coroutinesMt = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutinesMt}"
     }
 
     object DI {
@@ -38,7 +42,7 @@ object Deps {
         const val vectorDrawable = "androidx.vectordrawable:vectordrawable:${Versions.vectorDrawable}"
         const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
 
-        const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifeCycle}"
+        const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:2.2.0"
         const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifeCycle}"
         const val liveDataExtensions = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifeCycle}"
         const val viewModelExtensions = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifeCycle}"
